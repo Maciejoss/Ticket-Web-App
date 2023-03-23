@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ticket_app_web/pages/login_page/widgets/login_form_widget.dart';
+import 'package:ticket_app_web/pages/register_page/widgets/register_form_widget.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+class RegisterPage extends StatelessWidget {
+  const RegisterPage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
           // form title
           const Text(
-            'Logowanie',
+            'Rejestracja',
             style: TextStyle(
               fontSize: 36,
               fontWeight: FontWeight.bold,
@@ -21,7 +21,7 @@ class LoginPage extends StatelessWidget {
 
           const SizedBox(height: 25),
 
-          LoginForm(),
+          RegisterForm(),
         ]),
       ),
     ));
