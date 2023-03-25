@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ticket_app_web/pages/register_page/widgets/register_form_widget.dart';
+import 'package:ticket_app_web/pages/auth/register_page/widgets/register_form_widget.dart';
 
 class RegisterPage extends StatelessWidget {
   const RegisterPage({super.key});

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:ticket_app_web/pages/login_page/login_page.dart';
-import 'package:ticket_app_web/pages/register_page/register_page.dart';
+import 'package:ticket_app_web/pages/auth/login_page/login_page.dart';
+import 'package:ticket_app_web/pages/auth/register_page/register_page.dart';
 import 'pages/pages.dart';
 
 void main() {

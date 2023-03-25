@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ticket_app_web/pages/login_page/widgets/login_form_widget.dart';
+import 'package:ticket_app_web/pages/auth/login_page/widgets/login_form_widget.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});

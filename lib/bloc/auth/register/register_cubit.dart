@@ -4,11 +4,11 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 import '../models/email.dart';
 import '../models/password.dart';
 
-part 'login_state.dart';
-part 'login_cubit.freezed.dart';
+part 'register_state.dart';
+part 'register_cubit.freezed.dart';
 
-class LoginCubit extends Cubit<LoginState> {
-  LoginCubit() : super(const LoginState.initial());
+class RegisterCubit extends Cubit<RegisterState> {
+  RegisterCubit() : super(const RegisterState.initial());
 
   void emailChanged(String value) {
     final email = Email.dirty(value);

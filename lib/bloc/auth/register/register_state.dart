@@ -1,8 +1,8 @@
-part of 'login_cubit.dart';
+part of 'register_cubit.dart';
 
 @freezed
-class LoginState with _$LoginState {
-  const factory LoginState.initial({
+class RegisterState with _$RegisterState {
+  const factory RegisterState.initial({
     @Default(Email.pure()) Email email,
     @Default(Password.pure()) Password password,
     @Default(false) bool status,
