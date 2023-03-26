@@ -15,10 +15,13 @@ class Email extends FormzInput<String, EmailValidationError> {
     if (value.isEmpty) {
       return null;
     }
-    return _emailRegExp.hasMatch(value) && value.length < 30
-        ? null
-        : EmailValidationError.invalid;
-  }
+    if (!_emailRegExp.hasMatch(value) {
+      return EmailValidationError.invalid;
+    }
+    if (value.length >= 30) {
+      return EmailValidationError.tooLong;
+    }
+    return null;
 }
 
 extension Explanation on EmailValidationError {
