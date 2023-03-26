@@ -26,6 +26,8 @@ extension Explanation on EmailValidationError {
     switch (this) {
       case EmailValidationError.invalid:
         return "This is not a valid email";
+      case EmailVallidationError.tooLong:
+        return "Email is too long";
       default:
         return null;
     }
